@@ -267,11 +267,12 @@ button:hover {
 }
 
 .reviews-grid {
+    position: relative;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: black;
     padding: 0 20px 160px;
-    row-gap: 30px;
+    column-gap: 20px;
 }
 
 .review-grid {
@@ -297,7 +298,7 @@ button:hover {
 .review-flex .username {
     font-family: arial;
     color: black;
-    padding-left: 16px;
+    padding-left: 8px;
 }
 
 footer {
@@ -342,5 +343,6 @@ footer {
     .reviews-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 30px;
+        position: relative;
     }
 }
