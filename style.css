@@ -471,13 +471,52 @@ footer{
     }
 }
 
+
 @media (max-width: 480px) {
+    .header3-flex, .menu-flex {
+        flex-direction: column;
+        padding: 0.5em;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .menu a {
+        margin: 0.5em 0;
+    }
+
+    .home-grid {
+        flex-direction: column;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .aboutus-flex, .contact-flex {
+        padding: 1em;
+    }
+
     .gallery-grid, .reviews-grid {
         flex-direction: column;
         align-items: center;
     }
 
     .gallery-item, .review-grid {
-        width: 90%;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+
+    .gallery-item img, .profpic img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content, .aboutus-flex {
+        padding: 1em;
+    }
+
+    section {
+        padding: 1em;
     }
 }
