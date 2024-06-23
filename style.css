@@ -346,3 +346,40 @@ footer {
         position: relative;
     }
 }
+
+@media (min-width: 480px) {
+    .home-grid {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 160px;
+        padding-right: 140px;
+    }
+
+    .aboutus-flex {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .content {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .realestateimages-flex, .eventimages-flex, .filmprodimages-flex {
+        flex-direction: row;
+    }
+
+    .realestateimage1, .realestateimage2, .eventimage1, .eventimage2, .filmprodimage1, .filmprodimage2 {
+        width: 400px;
+        height: 400px;
+    }
+
+    .filmprodimage1, .filmprodimage2 {
+        height: 266.17px;
+    }
+
+    .reviews-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 30px;
+        position: relative;
+    }
+}
