@@ -310,6 +310,7 @@ footer {
     position: relative;
 }
 
+
 @media (min-width: 768px) {
     .home-grid {
         grid-template-columns: 1fr 1fr;
